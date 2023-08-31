@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exemplo 1</title>
+</head>
+<body>
+	<p>Exemplo 1 - Área de Entrega</p>
+
+
+	<script type="text/javascript">
+		var area = prompt("Digite Seu Endereço: ");
+		var taxaEntrega = 0;
+
+		switch(area){
+			case "Estrutural":
+				taxaEntrega = 5.00;
+				break;
+			case "Taguatinga":
+			case "Aguas Claras":
+				taxaEntrega = 7.00;
+				break
+			case "Asa Norte":
+				taxaEntrega= 10.00;
+				break
+			default:
+				taxaEntrega = 8.00;
+		}
+
+		alert("A taxa de entrega é: " + taxaEntrega)
+
+	</script>
+
+
+</body>
+</html>
