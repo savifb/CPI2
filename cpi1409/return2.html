@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadrado</title>
+</head>
+<body>
+    
+    <SCRIPt>
+       function quadrado(x){
+            return(x*x);
+       }
+
+       var num = parseInt(prompt("Informe um número: "));
+
+       if(quadrado(num)>100){//chamada da função numa condição
+        var quadrado = quadrado(num);//guardando o retorno da chamada da função dentro de uma variável
+        alert("Quadrado do número informado: "+ quadrado)
+    }
+
+    </SCRIPt>
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENSAGEM</title>
+</head>
+<body>
+    
+    <SCRIPt>
+        function comParametro(texto){
+            document.write("<p>" +texto + "</p>");
+
+        }
+        function comParametro1(texto, tagA, tagF){
+            document.write(tagA + texto + tagF);
+        }
+
+        var mensagem = prompt("Escreva uma mensagem: ");
+        comParametro(mensagem)
+
+        comParametro1(mensagem, "<h1>", "<h1>")
+        
+    </SCRIPt>
+
+
+</body>
+</html>
